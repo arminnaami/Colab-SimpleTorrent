@@ -12,7 +12,7 @@ function fail {
 }
 function install {
 	#settings
-	BASE_URL="https://github.com/boypt/simple-torrent"
+	BASE_URL="https://github.com/arminnaami/Bhadoo-Cloud"
 	LATEST_TAG=$(curl -s "${BASE_URL}/releases/latest" | sed -En 's/.+\/tag\/([.0-9A-Za-z]+)".+/\1/p')
 	USER="boypt"
 	PROG="cloud-torrent"
